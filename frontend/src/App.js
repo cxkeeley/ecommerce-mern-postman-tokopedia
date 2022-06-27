@@ -7,6 +7,7 @@ import HomeScreen from './screens/HomeScreen';
 import SingleProduct from './screens/SingleProduct';
 import Login from './screens/Login';
 import Register from './screens/Register';
+import ProfileScreen from './screens/ProfileScreen';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/products/:id' element={<SingleProduct />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/profile' element={<ProfileScreen />} />
       </Routes>
     </Router>
   );
